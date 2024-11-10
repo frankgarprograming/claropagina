@@ -1,0 +1,10 @@
+.card {
+    width: 15rem;
+    border-radius: 15px; /* Esquinas redondeadas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de transición */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra al pasar el ratón */
+  }
